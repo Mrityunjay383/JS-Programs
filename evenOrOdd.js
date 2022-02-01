@@ -1,4 +1,4 @@
-let num = 20; //change value here
+let num = parseFloat(prompt("Enter a number: "));
 
 
 //conditional Statement
