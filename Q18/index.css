@@ -9,11 +9,11 @@ body{
 
 .btnCon button{
   padding: 10px 25px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
   cursor: pointer;
   margin-right: 20px;
-  box-shadow: hsl(210deg 40% 52% / 40%) 2px 2px 20px;
+  box-shadow: hsl(210deg 40% 52% / 40%) 15px 15px 30px;
   color: #fff;
   font-size: 1.8rem;
 }
