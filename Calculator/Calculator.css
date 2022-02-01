@@ -1,0 +1,44 @@
+<style>
+body{
+  background: red;
+  height: 100%
+}
+*{
+box-sizing:border-box;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+}
+.mrityunjay{
+width:500px;
+margin:auto;
+height:auto;
+padding: 15px;
+}
+input[type=text]{
+width:100%;
+padding: 10px;
+font-size: 22px;
+font-weight: bold;
+margin-top: 20px;
+border-radius: 5px;
+border:none;
+color: #607d8b;
+}
+input[type=button]{
+width:89px;
+padding: 10px;
+font-size: 22px;
+font-weight: bold;
+border-radius: 5px;
+height: 50px;
+background: #607d8b;
+border: none;
+color: white;
+}
+#eql{
+width: 100%;;
+}
+#btn0{
+  width:178px;
+}
+</style>

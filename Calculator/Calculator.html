@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <title> Calculator </title>
+  <link rel="stylesheet" href="Calculator.css" />
+</head>
+
+<body style="background:linear-gradient(to right,#e91e63, #3151b5);">
+  <div class="mrityunjay">
+    <form name=calcform>
+      <input type=text name=txt1 style="text-align:right"><br><br>
+      <input type=button name=delbtn value=C onclick="txt1.value=''">
+      <input type=button name=backbtn value=« onclick="back()">
+      <input type=button name=perbtn value=% onclick="percentage()">
+      <input type=button name=divbtn value=÷ onclick="displnum('/')">
+      <input type=button name=btnmul value=× onclick="displnum('*')"><br><br>
+      <input type=button name=addbtn value=+ onclick="displnum(addbtn.value)">
+      <input type=button name=btn7 value=7 onclick="displnum(btn7.value)">
+      <input type=button name=btn8 value=8 onclick="displnum(btn8.value)">
+      <input type=button name=btn9 value=9 onclick="displnum(btn9.value)">
+      <input type=button name=powbtn value=x² onclick="square()"><br><br>
+      <input type=button name=subbtn value=- onclick="displnum(subbtn.value)">
+      <input type=button name=btn4 value=4 onclick="displnum(btn4.value)">
+      <input type=button name=btn5 value=5 onclick="displnum(btn5.value)">
+      <input type=button name=btn6 value=6 onclick="displnum(btn6.value)">
+      <input type=button name=sqrtbtn value=√ onclick="txt1.value=Math.sqrt(txt1.value)"><br><br>
+      <input type=button name=facbtn value=! onclick="factorial()">
+      <input type=button name=btn1 value=1 onclick="displnum(btn1.value)">
+      <input type=button name=btn2 value=2 onclick="displnum(btn2.value)">
+      <input type=button name=btn3 value=3 onclick="displnum(btn3.value)">
+      <input type=button name=pibtn value=π onclick="PI()"><br><br>
+      <input type=button name=recbtn value=1/x onclick="recipocal()">
+      <input type=button name=btn0 value=0 onclick="displnum(btn0.value)" id="btn0">
+      <input type=button name=potbtn value=. onclick="displnum(potbtn.value)">
+      <input type=button name=ebtn value=e onclick="E()"><br><br>
+      <input type=button name=eqlbtn value="=" onclick="txt1.value=eval(txt1.value)" id="eql">
+    </form>
+
+  </div>
+  <script src="Calculator.js"></script>
+</body>
+
+</html>
