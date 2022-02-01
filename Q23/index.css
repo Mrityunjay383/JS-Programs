@@ -1,0 +1,22 @@
+body{
+  width: 98vw;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form{
+  width: 50%;
+  border: 2px solid;
+  padding: 20px 40px;
+  border-radius: 20px;
+}
+
+#txtRes{
+  margin-top: 10vh;
+  font-weight: bolder;
+  color: green;
+  font-size: 2rem;
+}
