@@ -1,4 +1,4 @@
-let a = 5, b = 10; //Change variable value here
+let a = parseFloat(prompt("Enter first number: ")), b = parseFloat(prompt("Enter second number: "));
 
 
 let sum = a+b;
